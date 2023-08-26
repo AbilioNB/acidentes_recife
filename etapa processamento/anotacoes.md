@@ -34,4 +34,7 @@ Base final:
 Bruta : 21203
 Processada: 18225
 Diferença no processamento: 15%
+
+
+2022 foi desconsiderado por ainda não existirem informações sobre horário, coluna essa importante para nossas analises.
  
