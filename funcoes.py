@@ -135,7 +135,7 @@ def pagina_sobre():
         - Fonte original: [Dados Recife](http://dados.recife.pe.gov.br/dataset/acidentes-de-transito-com-e-sem-vitimas)
         - Os anos alvo desse trabalho foram 2019 a 2021, pois o ano de 2022 ainda se encontra incompleto para nossa análise.
         - Durante o processamento, dados ausentes das colunas relevantes para o projeto foram removidos.
-        - Todo o processo de tratamento e exportação de dados pode ser verificado na pasta "etapa_processamento".
+        - Todo o processo de tratamento e exportação de dados pode ser verificado em [processamento](https://github.com/AbilioNB/acidentes_recife/blob/main/etapa%20processamento/01_processamento_base.ipynb)
         """
     )
     
