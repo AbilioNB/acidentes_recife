@@ -9,8 +9,8 @@ def main():
 
     st.write("# Acidentes na Cidade do Recife  2019-2021")
 
-    # Opções do menu lateral
-    selecao_demo = st.sidebar.selectbox("Selecione uma opção:", ["Sobre o Projeto", "Análise por Bairro", "Análise por Ano", "Análise Completa"])
+    
+    selecao_demo = st.sidebar.selectbox("Selecione uma opção:", ["Sobre o Projeto", "Análise por Bairro", "Análise por Ano"])
 
     if selecao_demo == "Sobre o Projeto":
         pagina_sobre()
@@ -18,8 +18,6 @@ def main():
         analise_bairro()
     elif selecao_demo == "Análise por Ano":
         analise_ano()
-    elif selecao_demo == "Análise Completa":
-        analise_cidade()
 
 def pagina_sobre():
     st.markdown(
